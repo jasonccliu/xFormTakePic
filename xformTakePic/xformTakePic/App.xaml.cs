@@ -13,7 +13,7 @@ namespace xformTakePic
         {
             InitializeComponent();
 
-            MainPage = new xformTakePic.MainPage();
+            MainPage = new Pages.TakePicture();
         }
 
         protected override void OnStart()
